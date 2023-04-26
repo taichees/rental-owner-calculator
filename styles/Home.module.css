@@ -33,7 +33,6 @@
   text-align: center;
 }
 
-
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
@@ -44,7 +43,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -81,6 +79,14 @@
 
 .logo {
   height: 1em;
+}
+
+.center {
+  text-align: center;
+}
+
+.readOnly {
+  display: none;
 }
 
 @media (max-width: 600px) {
