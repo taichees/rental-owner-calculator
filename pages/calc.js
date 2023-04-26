@@ -23,64 +23,64 @@ export default function Home() {
 
         <div className={styles.grid}>
           <table>
-            <thead>
-            </thead>
-            <tr>
-              <th>計算可否</th>
-              <th>項目</th>
-              <th>金額</th>
-            </tr>
-            <tr>
-              <td></td>
-              <td><label>物件価格</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <label>手出し金額</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <label>賃貸月額</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <label>管理費月額</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <label>修繕積立費月額</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name='' /></td>
-              <td><label>管理委託月額</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <label>（別途）修繕積立金月額</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td></td>
-              <td>
-                <label>固定資産税</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
-            <tr>
-              <td><input type="checkbox" name='' /></td>
-              <td><label>不動産取得税</label></td>
-              <td><input type="number" name='' />円</td>
-            </tr>
+            <tbody>
+              <tr>
+                <th>計算可否</th>
+                <th>項目</th>
+                <th>金額</th>
+              </tr>
+              <tr>
+                <td></td>
+                <td><label>物件価格</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <label>手出し金額</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <label>賃貸月額</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <label>管理費月額</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <label>修繕積立費月額</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name='' /></td>
+                <td><label>管理委託月額</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <label>（別途）修繕積立金月額</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <label>固定資産税</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+              <tr>
+                <td><input type="checkbox" name='' /></td>
+                <td><label>不動産取得税</label></td>
+                <td><input type="number" name='' />円</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </main>
